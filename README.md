@@ -1,16 +1,18 @@
-# JSON Explorer
+# Database Explorer
 
-Effortlessly explore, visualize, and interact with JSON data directly within Visual Studio Code.
+Effortlessly explore, visualize, understand, and interact with your databases directly within Visual Studio Code.
 
 ## Features
 
-- **Interactive JSON Viewer:** Render JSON data as a collapsible and expandable tree with intuitive navigation.
-- **Table View for Arrays:** Display arrays as sortable and filterable tables with column visibility toggles.
-- **Column Management:** Easily hide or show specific columns in arrays and restore them when needed.
-- **Code Generation:** Generate code for mapping from one json structure to another. (Requires OPENAI_API_KEY as environment variable)
+- **Database Discovery and Navigation:** One-click access to your tables, fields, data, histograms, and more.
+- **Database Metadata:** Your tables and fields displayed with color codes, easy to see and understand.
+- **Descriptions:** Add descriptions to your tables and fields while discovering your data models.
+- **Aggregations:** One-click group by, sort, min-max, counts.
+- **Navigation:** Jump from one table to another by following hard or soft foreign keys
+- **Code Generation:** Generate code with your OPENAI_API_KEY in your environment variables 
 
 ---
 
-![Screenshot of JSON Explorer](json-explorer-screenshot.png)
+![Screenshot of Database Explorer](json-explorer-screenshot.png)
 
-> Tip: Right Click the JSON file and select "Open With JSON Explorer"
+> Tip: View -> Command Palette (Shift-Ctrl-P) and find the command "Database Explorer: Start"
